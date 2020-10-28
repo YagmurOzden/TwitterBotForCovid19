@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  twitterbotwithtweepy:
+    image: twitterbotwithtweepy
+    build:
+      context: .
+      dockerfile: ./Dockerfile
